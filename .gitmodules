@@ -106,3 +106,7 @@
 [submodule "sims/truth_42_sim"]
 	path = sims/truth_42_sim
 	url = https://github.com/nasa-itc/truth_42_sim.git
+[submodule "fsw/components/crypto_lib"]
+	path = fsw/components/crypto_lib
+	url = git@github.com:nasa/CryptoLib.git
+	branch = main

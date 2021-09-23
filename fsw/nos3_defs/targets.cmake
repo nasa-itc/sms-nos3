@@ -91,6 +91,7 @@ SET(APPLICATION_LIST
         cfs_lib
         hwlib
         io_lib
+        crypto_lib
     #
     # cFS Apps
     #

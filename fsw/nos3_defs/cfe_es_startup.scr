@@ -3,6 +3,7 @@ CFE_APP, /cf/sch.so,                    SCH_AppMain,              SCH,          
 CFE_APP, /cf/hk.so,                     HK_AppMain,               HK,               63, 16384, 0x0, 0;
 
 CFE_LIB, /cf/io_lib.so,                 IO_LibInit,               IO_LIB,           0,  0,     0x0, 0;
+CFE_LIB, /cf/crypto.so,                 crypto_Init,              CRYPTO,           0,  0,     0x0, 0;
 CFE_APP, /cf/ci.so,                     CI_AppMain,               CI,               52, 16384, 0x0, 0;
 CFE_APP, /cf/to.so,                     TO_AppMain,               TO,               53, 16384, 0x0, 0;
 
