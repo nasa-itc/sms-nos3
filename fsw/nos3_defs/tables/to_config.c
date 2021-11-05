@@ -63,10 +63,10 @@ extern "C" {
 /*
 ** Component Include Files
 */
-#include "nav_msgids.h"
-#include "generic_reaction_wheel_msgids.h"
-#include "eps_msgids.h"
-#include "sample_app_msgids.h"
+//#include "nav_msgids.h"
+//#include "generic_reaction_wheel_msgids.h"
+//#include "eps_msgids.h"
+//#include "sample_app_msgids.h"
 
 /*
 ** Local Defines

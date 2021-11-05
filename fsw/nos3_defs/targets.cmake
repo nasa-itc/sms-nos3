@@ -114,11 +114,11 @@ SET(APPLICATION_LIST
     #
     # Components
     #
-        sample
-        novatel_oem615
-        arducam
-        clyde_eps
-        generic_reaction_wheel
+        #sample
+        #novatel_oem615
+        #arducam
+        #clyde_eps
+        #generic_reaction_wheel
 )
 
 # Create Application Platform Include List
@@ -133,7 +133,7 @@ SET(TGT1_FILELIST cfe_es_startup.scr)
 SET(TGT2_OSAL_SYSTEM_CONFIG cpu1_osconfig.h)
 
 # USER Supplied
-SET(TGT2_NAME cpu2)
-SET(TGT2_APPLIST ${APPLICATION_LIST})
-SET(TGT2_FILELIST cfe_es_startup.scr)
-SET(TGT2_OSAL_SYSTEM_CONFIG cpu2_osconfig.h)
+#SET(TGT2_NAME cpu2)
+#SET(TGT2_APPLIST ${APPLICATION_LIST})
+#SET(TGT2_FILELIST cfe_es_startup.scr)
+#SET(TGT2_OSAL_SYSTEM_CONFIG cpu2_osconfig.h)
